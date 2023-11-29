@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Welcome to Canadian Wonders</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <!-- Main Heading -->
+      <h1>Explore Canada</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="destinations.html">Destinations</a>
+        <a href="cuisines.html">Cuisines</a>
+        <a href="culture-history.html">Culture and History</a>
+        <a href="activities.html">Activities</a>
+        <a href="wildlife-nature.html">Wildlife and Nature</a>
+        <a href="travel-tips.html">Travel Tips</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="faq.html">FAQs</a>
+        <a href="contact.html">Contact</a>
+        <a href="citations.html">Citations</a>
+    </nav>
+    </header>
+
+    <main>
+      <!-- Welcome Section -->
+      <section>
+        <h2>Welcome to Canada</h2>
+        <p>
+          Discover the vast and diverse landscapes of Canada, from the Rocky
+          Mountains to the Arctic tundras.
+        </p>
+        <img src="canada_welcome.jpg" alt="Welcome to Canada" />
+      </section>
+
+      <hr />
+
+      <!-- Quick Facts Section -->
+      <section>
+        <h3>Quick Facts About Canada</h3>
+        <ul>
+          <li>
+            <b>Largest Country:</b> Canada is the second-largest country in the
+            world.
+          </li>
+          <li><i>Diverse Cultures:</i> A melting pot of multiculturalism.</li>
+          <li>
+            Natural Beauty: Home to numerous national parks and natural
+            reserves.
+          </li>
+        </ul>
+      </section>
+
+      <!-- Featured Destinations -->
+      <section>
+        <h3>Featured Destinations</h3>
+        <ol>
+          <li>Toronto - The Urban Experience</li>
+          <li>Banff National Park - Nature's Splendor</li>
+          <li>Vancouver - Where Mountains Meet the Ocean</li>
+        </ol>
+      </section>
+
+      <!-- Interactive Map -->
+      <!-- Interactive Map -->
+      <section>
+        <h4>Explore by Region</h4>
+        <img src="canada_map.png" alt="Map of Canada" usemap="#canadamap" />
+        <map name="canadamap">
+          <!-- Define coordinates and links for different regions -->
+          <area
+            shape="rect"
+            coords="100,100,200,200"
+            href="destinations.html"
+            alt="Region 1"
+          />
+          <area
+            shape="rect"
+            coords="300,300,400,400"
+            href="destinations.html"
+            alt="Region 2"
+          />
+          <!-- Add more areas as needed, all linking to destinations.html -->
+        </map>
+      </section>
+
+      <hr />
+
+      <!-- Table of Activities -->
+      <section>
+        <h5>Activities in Canada</h5>
+        <table>
+            <tr>
+                <th>Activity</th>
+                <th>Description</th>
+                <th>Best Locations</th>
+            </tr>
+            <tr>
+                <td><a href="activities.html">Skiing</a></td>
+                <td>Enjoy world-class skiing...</td>
+                <td>Whistler, Banff</td>
+            </tr>
+            
+        </table>
+    </section>
+    
+
+      <!-- Definition List -->
+      <section>
+        <h6>Canadian Cuisine</h6>
+        <dl>
+            <dt><a href="cuisines.html">Poutine</a></dt>
+            <dd>A dish of fries topped with cheese curds and gravy.</dd>
+            <dt><a href="cuisines.html">Maple Syrup</a></dt>
+            <dd>Iconic syrup used in various Canadian dishes.</dd>
+           
+        </dl>
+    </section>
+    
+    </main>
+
+    <!-- Feedback Form -->
+    <footer>
+      <form action="submit_form.php" method="post">
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" /><br />
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" /><br />
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message"></textarea><br />
+        <input type="submit" value="Submit" />
+        <footer>
+            <p>
+                Contact us at:
+                <a href="mailto:kapoor52@uwindsor.ca">kapoor52@uwindsor.ca</a>
+              </p>
+        </footer>
+  </body>
+</html>
